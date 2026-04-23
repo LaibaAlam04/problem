@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Problems & Solutions</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #5f7f5e;
+  margin: 0;
+  padding: 40px;
+}
+
+.problem-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2ecc71;
+  margin-bottom: 10px;
+}
+
+.sub {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #aaa;
+}
+
+.problem-card {
+  background: #f4f4f4;
+  border-radius: 14px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.problem-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.problem-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.problem-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.problem-icon {
+  transition: transform 0.3s ease;
+}
+
+.problem-card.active .problem-icon {
+  transform: rotate(90deg);
+}
+
+.problem-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.problem-card.active .problem-content {
+  max-height: 400px;
+  padding: 20px;
+}
+
+.problem-box {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.problem {
+  border: 2px solid #ff6b6b;
+  background: #ffecec;
+}
+
+.solution {
+  border: 2px solid #2ecc71;
+  background: #eafff3;
+}
+
+.problem-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="problem-container">
+  <h1>Sound Familiar?</h1>
+  <div class="sub">Most Websites Have the Same Problems. Here's How We Fix Them.</div>
+
+  <!-- 1 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-title">You launched a site, but it has never once brought in a lead, a call, or a single enquiry.</div>
+      <div class="problem-icon">➤</div>
+    </div>
+    <div class="problem-content">
+      <div class="problem-box problem">
+        <div class="label">Problem</div>
+        <p>You launched a site, but it has never once brought in a lead, a call, or a single enquiry.</p>
+      </div>
+      <div class="problem-box solution">
+        <div class="label">Solution</div>
+        <p>We go back to the structure and the messaging, not just the look, and rebuild it around what actually moves people to reach out.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-title">Your site looks outdated, and visitors leave before they read a single word.</div>
+      <div class="problem-icon">➤</div>
+    </div>
+    <div class="problem-content">
+      <div class="problem-box problem">
+        <div class="label">Problem</div>
+        <p>Your site looks outdated, and visitors leave before they read a single word.</p>
+      </div>
+      <div class="problem-box solution">
+        <div class="label">Solution</div>
+        <p>We redesign the look and feel so the first impression earns trust instead of losing it.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-title">People land on your site, but nothing moves them to call or email you.</div>
+      <div class="problem-icon">➤</div>
+    </div>
+    <div class="problem-content">
+      <div class="problem-box problem">
+        <div class="label">Problem</div>
+        <p>People land on your site, but nothing moves them to call or email you.</p>
+      </div>
+      <div class="problem-box solution">
+        <div class="label">Solution</div>
+        <p>Every page we build guides visitors toward one clear action and makes it easy to take it.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-title">Your business has grown, but your website still looks like it did three years ago.</div>
+      <div class="problem-icon">➤</div>
+    </div>
+    <div class="problem-content">
+      <div class="problem-box problem">
+        <div class="label">Problem</div>
+        <p>Your business has grown, but your website still looks like it did three years ago.</p>
+      </div>
+      <div class="problem-box solution">
+        <div class="label">Solution</div>
+        <p>Our website redesign in Toronto covers everything from outdated visuals to broken page structure. We bring your site in line with where your business actually is today.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-title">Your site gets traffic, but the people visiting never turn into calls, enquiries, or sales.</div>
+      <div class="problem-icon">➤</div>
+    </div>
+    <div class="problem-content">
+      <div class="problem-box problem">
+        <div class="label">Problem</div>
+        <p>Your site gets traffic, but the people visiting never turn into calls, enquiries, or sales.</p>
+      </div>
+      <div class="problem-box solution">
+        <div class="label">Solution</div>
+        <p>We look at where people are dropping off and fix the pages that are losing them, whether that's the layout, the messaging, or the call to action.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-title">Mobile visitors on your site have a broken or confusing experience.</div>
+      <div class="problem-icon">➤</div>
+    </div>
+    <div class="problem-content">
+      <div class="problem-box problem">
+        <div class="label">Problem</div>
+        <p>Mobile visitors on your site have a broken or confusing experience.</p>
+      </div>
+      <div class="problem-box solution">
+        <div class="label">Solution</div>
+        <p>Every site we build works properly on phone, tablet, and desktop; that's not a bonus feature, it's the baseline.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="problem-card">
+    <div class="problem-header">
+      <div class="problem-title">Your site loads slowly, and you're not sure what's causing it.</div>
+      <div class="problem-icon">➤</div>
+    </div>
+    <div class="problem-content">
+      <div class="problem-box problem">
+        <div class="label">Problem</div>
+        <p>Your site loads slowly, and you're not sure what's causing it.</p>
+      </div>
+      <div class="problem-box solution">
+        <div class="label">Solution</div>
+        <p>We build clean, fast sites from scratch, no unnecessary plugins, no bloated code slowing things down.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.querySelectorAll('.problem-card').forEach(card => {
+  card.addEventListener('click', () => {
+    document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+    card.classList.add('active');
+  });
+});
+</script>
+
+</body>
+</html>
